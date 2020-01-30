@@ -1,0 +1,29 @@
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+@import 'variables.scss';
+@import 'blocks/page-header.scss';
+@import 'blocks/main-nav.scss';
+@import 'blocks/site-list.scss';
+@import 'blocks/choose.scss';
+@import 'blocks/menu-list.scss';
+@import 'blocks/best.scss';
+@import 'blocks/feautures.scss';
+@import 'blocks/reviews.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/button.scss';
+@import 'blocks/buy-button.scss';
+@import 'blocks/reviews__buttons.scss';
+@import 'blocks/contacts__button.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/catalog__list.scss';
+@import 'blocks/catalog__item.scss';
+@import 'blocks/product.scss';
+@import 'blocks/visually-hidden.scss';
+@import 'blocks/form.scss';

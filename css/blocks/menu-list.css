@@ -1,0 +1,85 @@
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px; }
+
+.menu-list__item--interier {
+  background-color: #63d1bb;
+  padding: 30px 27px;
+  position: relative; }
+  .menu-list__item--interier:hover {
+    background-color: #59d5bc; }
+  .menu-list__item--interier:visited {
+    background-color: #59d5bc; }
+  .menu-list__item--interier a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.26;
+    font-weight: 700; }
+  .menu-list__item--interier a::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 62px;
+    top: 50%;
+    left: 90%;
+    margin-left: -15px;
+    background-image: url(../img/interior.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+    transform: translate(-50%, -50%); }
+
+.menu-list__item--toys {
+  position: relative;
+  background-color: #56c3b2;
+  padding: 30px 27px; }
+  .menu-list__item--toys:hover {
+    background-color: #46c1ae; }
+  .menu-list__item--toys:visited {
+    background-color: #46c1ae; }
+  .menu-list__item--toys a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.26;
+    font-weight: 700; }
+  .menu-list__item--toys a::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 90%;
+    margin-left: -15px;
+    position: absolute;
+    background-image: url(../img/toy.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .5;
+    transform: translate(-50%, -50%); }
+
+@media (min-width: 771px) {
+  .menu-list {
+    position: absolute;
+    top: 91.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 668px;
+    display: flex;
+    margin: 0 auto; }
+  .menu-list__item--interier {
+    width: 334px; }
+    .menu-list__item--interier:hover {
+      background-color: #59d5bc; }
+  .menu-list__item--toys {
+    width: 334px; } }
+
+@media (min-width: 1200px) {
+  .menu-list {
+    width: 1050px; }
+  .menu-list__item {
+    width: 525px; } }

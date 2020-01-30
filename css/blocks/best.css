@@ -1,0 +1,134 @@
+.best__container {
+  width: 260px;
+  margin: 0 auto; }
+
+.best__product-name {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 25px;
+  line-height: 30px; }
+
+.best__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #63d1bb;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700; }
+
+.best__product-description {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400; }
+
+.best__list {
+  margin-bottom: 28px; }
+
+.best__image {
+  margin-bottom: 28px; }
+
+.best__price {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 28px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #444444; }
+
+.best__separator {
+  margin-bottom: 30px;
+  background-image: url(../img/zigzag-line-desktop.svg.png);
+  background-repeat: repeat;
+  min-width: 319px;
+  height: 6px; }
+
+@media (min-width: 771px) {
+  .best {
+    width: 771px; }
+  .best__container {
+    position: relative;
+    width: 668px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .best__product-wrapper {
+    width: 668px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px; }
+  .best__product-name {
+    font-size: 43px;
+    line-height: 1.16; }
+  .best__title {
+    margin: 0;
+    width: 70px;
+    margin-right: 28px;
+    text-align: center;
+    line-height: 17px; }
+  .best__product-description {
+    width: 292px;
+    line-height: 30px; }
+  .best__image {
+    width: 333px;
+    height: 404px;
+    margin-bottom: 52px; }
+  .best__buy-wrapper {
+    position: absolute;
+    top: 70.4%; }
+  .best__separator {
+    background-image: url(../img/zigzag-line-tablet.png);
+    width: 771px;
+    height: 17px;
+    margin-bottom: 59px; } }
+
+@media (min-width: 1200px) {
+  .best {
+    width: 1200px;
+    margin: 0 auto; }
+  .best__container {
+    width: 1050px; }
+  .best__product-wrapper {
+    width: 1200px;
+    margin-bottom: -170px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-right: 285px; }
+  .best__product-name {
+    z-index: 2;
+    font-size: 53px;
+    line-height: 57px; }
+  .best__description-wrapper {
+    order: 1;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: 61px; }
+  .best__product-description {
+    font-size: 17px;
+    line-height: 30px; }
+  .best__image {
+    order: 1;
+    width: 525px;
+    height: 636px; }
+  .best__buy-wrapper {
+    order: 3;
+    position: static;
+    margin-top: -156px;
+    margin-left: 170px; }
+  .best__price {
+    font-size: 20px;
+    line-height: 24px; }
+  .best__separator {
+    background-image: url(../img/zigzag-line-desktop3.png);
+    width: 1050px;
+    height: 23px;
+    margin: 0 auto;
+    margin-bottom: 70px; } }

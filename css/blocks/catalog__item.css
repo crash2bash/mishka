@@ -1,0 +1,17 @@
+.catalog__item {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+
+@media (min-width: 771px) {
+  .catalog__item {
+    width: 670px;
+    flex-direction: row; } }
+
+@media (min-width: 1200px) {
+  .catalog__item {
+    width: 316px;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 60px; } }

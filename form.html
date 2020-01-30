@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Форма заказа</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="page-header">
+            <nav class="main-nav">
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__logo">
+                        <div class="page-header__wrapper">
+                            <a class="page-header__logo-img" href="#"></a>
+                            <span class="page-header__logo page-header__item page-header__item--open"></span>
+                        </div>
+                    </li>
+                    <div class="site-list__container-left menu-close">
+                        <li class="site-list__item site-list__item-catalog"><a href="catalog.html">Каталог товаров</a></li>
+                        <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
+                    </div>
+                    <div class="site-list__container-right menu-close">
+                        <li class="site-list__item site-list__search">
+                            <a class="site-list__search-img" href="#"></a>
+                            <a class="site-list__hide" href="#">Поиск по сайту</a>
+                        </li>
+                        <li class="site-list__item site-list__basket-img"><a href="#">Корзина: пока пуста</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="form">
+                <h1 class="form__title inner__title">Вязание на заказ</h1>
+                <p class="form__description">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+                
+                <form class="form__order">
+                    <h1 class="visually-hidden">Форма заказа</h1>
+                    <p class="form__type">Тип</p>
+                    <div class="form__radio">
+                        <label for="accessory">Аксессуар для интерьера</label>
+                        <input id="accessory" type="radio" name="type" value="accessory">
+
+                        <label for="toys">Детская игрушка</label>
+                        <input id="toys" type="radio" name="type" value="toys">
+                    </div>
+
+                    <p class="form__type">Цвет</p>
+                    <div class="form__checkbox">
+                        <label for="white">Белый</label>
+                        <input id="white" type="checkbox" name="color" value="white" checked>
+
+                        <label for="grey">Серый</label>
+                        <input id="grey" type="checkbox" name="color" value="grey" checked>
+
+                        <label for="tiffany">«Тиффани»</label>
+                        <input id="tiffany" type="checkbox" name="color" value="tiffany">
+
+                        <label for="black">Черный</label>
+                        <input id="black" type="checkbox" name="color" value="black">
+
+                        <label for="pink">Розовый</label>
+                        <input id="pink" type="checkbox" name="color" value="pink">
+
+                        <label for="orange">Оранжевый</label>
+                        <input id="orange" type="checkbox" name="color" value="orange">
+                    </div>
+
+                    <p class="form__type">ФИО</p>
+
+                    <label for="name">Имя:</label>
+                    <input id="name" type="text" name="name" value="" required>
+
+                    <label for="second-name">Фамилия</label>
+                    <input id="second-name" type="text" name="second-name" value="" required>
+
+                    <label for="patronymic">Отчество</label>
+                    <input id="patronymic" type="text" name="patronymic" value="">
+
+                    <p class="form__type">Тел</p>
+
+                    <label for="tel">Имя:</label>
+                    <input id="tel" type="tel" name="tel" value="" placeholder="+3 XXX XX XX*" required>
+
+                    <p class="form__type">Тел</p>
+
+                    <label for="tel">Имя:</label>
+                    <input id="tel" type="tel" name="tel" value="" placeholder="+3 XXX XX XX*" required>
+                </form>
+            </section>
+            <script src="js/menu-mobile.js"></script>
+        </main>
+    </body>
+</html>

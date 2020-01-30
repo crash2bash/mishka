@@ -1,0 +1,115 @@
+@import '../variables.scss';
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 30px;
+}
+
+.menu-list__item--interier {
+    background-color: $menu-bg-left;
+    padding: 30px 27px;
+    position: relative;
+    &:hover {
+        background-color: $menu-bg-left-h;        
+    }
+    &:visited {
+        background-color: $menu-bg-left-h;
+    }
+    & a {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 19px;
+        line-height: 1.26;
+        font-weight: 700;
+    }
+    & a::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 62px;
+        top: 50%;
+        left: 90%;
+        margin-left: -15px;
+
+        background-image: url(../img/interior.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 0.5;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+.menu-list__item--toys {
+    position: relative;
+    background-color: $menu-bg-right;
+    padding: 30px 27px;
+    &:hover {
+        background-color: $menu-bg-right-h;
+    }
+    &:visited {
+        background-color: $menu-bg-right-h;
+    }
+    & a {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 19px;
+        line-height: 1.26;
+        font-weight: 700;
+    }
+    & a::after {
+        content: "";
+        width: 60px;
+        height: 60px;
+        top: 50%;
+        left: 90%;
+        margin-left: -15px;
+
+        position: absolute;
+        background-image: url(../img/toy.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: .5;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: $tablet) {
+    .menu-list {
+        position: absolute;
+        top: 91.5%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+        width: 668px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .menu-list__item--interier {
+        width: 334px;
+        &:hover {
+            background-color: $menu-bg-left-h;
+        }
+    }
+
+    .menu-list__item--toys {
+        width: 334px;
+    }
+}
+
+@media (min-width: $desktop) {
+    .menu-list {
+        width: 1050px;
+    }
+
+    .menu-list__item {
+        width: 525px;
+    }
+}

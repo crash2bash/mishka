@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Каталог товаров</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="page-header">
+            <nav class="main-nav">
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__logo">
+                        <div class="page-header__wrapper">
+                            <a class="page-header__logo-img" href="index.html"></a>
+                            <span class="page-header__logo page-header__item page-header__item--open"></span>
+                        </div>
+                    </li>
+                    <div class="site-list__container-left menu-close">
+                        <li class="site-list__item site-list__item-catalog"><a>Каталог товаров</a></li>
+                        <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
+                    </div>
+                    <div class="site-list__container-right menu-close">
+                        <li class="site-list__item site-list__search">
+                            <a class="site-list__search-img" href="#"></a>
+                            <a class="site-list__hide" href="#">Поиск по сайту</a>
+                        </li>
+                        <li class="site-list__item site-list__basket-img"><a href="#">Корзина: пока пуста</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="catalog">
+                <div class="catalog__title-wrapper">
+                    <h1 class="catalog__title inner__title">Каталог товаров</h1>
+                    <span class="catalog__separator"></span>
+                </div>
+                <ul class="catalog__list">
+                    <li class="catalog__item product">
+                        <img class="product__image" src="img/photo-1-desktop.jpg">
+                        <div class="product__wrapper">
+                            <div class="product__title-wrapper">
+                                <h3 class="product__title">Зайчик-попрыгайчик</h3>
+                                <p class="product__decription">Рост 30 см, вес 200 г</p>
+                            </div>
+                            <p class="product__buy">
+                                <b class="product__price">1 200 грн.</b>
+                                <span class="product__icon"></span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="catalog__item product">
+                        <img class="product__image" src="img/photo-1-desktop.jpg">
+                        <div class="product__wrapper">
+                            <div class="product__title-wrapper">
+                                <h3 class="product__title">Корзинка для белья</h3>
+                                <p class="product__decription">Диаметр 15 см, высота 10 см</p>
+                            </div>
+                            <p class="product__buy">
+                                <b class="product__price">690 грн.</b>
+                                <span class="product__icon"></span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="catalog__item product">
+                        <img class="product__image" src="img/photo-1-desktop.jpg">
+                        <div class="product__wrapper">
+                            <div class="product__title-wrapper">
+                                <h3 class="product__title">Корзинка для белья</h3>
+                                <p class="product__decription">Диаметр 15 см, высота 10 см</p>
+                            </div>
+                            <p class="product__buy">
+                                <b class="product__price">690 грн.</b>
+                                <span class="product__icon"></span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="catalog__item product">
+                        <img class="product__image" src="img/photo-1-desktop.jpg">
+                        <div class="product__wrapper">
+                            <div class="product__title-wrapper">
+                                <h3 class="product__title">Большая корзинка для игрушек</h3>
+                                <p class="product__decription">Диаметр 30 см, высота 30 см</p>
+                            </div>
+                            <p class="product__buy">
+                                <b class="product__price">1 500 грн.</b>
+                                <span class="product__icon"></span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="production">
+                <h3 class="production__title">Процесс производства</h3>
+                <video class="production__video"src=""></video>
+                <p class="production__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+                <a class="button production__button">Сделать заказ</a>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <ul class="page-footer__social-list socials">
+                <li class="socials__item">Instagram</li>
+                <li class="socials__item">Facebook</li>
+                <li class="socials__item">Twitter</li>
+            </ul>
+            <p class="page-footer__dev">Разработано</p>
+        </footer>
+
+        <section class="modal">
+            <h3 class="modal__title">Добавить в корзину</h3>
+            <p class="modal__description">Выберите размер</p>
+            <button class="button modal__button">Добавить</button>
+        </section>
+        <script src="js/menu-mobile.js"></script>
+    </body>
+</html>

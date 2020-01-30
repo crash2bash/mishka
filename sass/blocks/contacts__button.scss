@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+@media (min-width: $desktop) {
+    .contacts__button {
+        width: 230px;
+        margin-left: 180px;
+        margin-top: -50px;
+        
+        padding: 12px 0;
+    }
+}

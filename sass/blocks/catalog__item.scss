@@ -1,0 +1,24 @@
+@import '../variables.scss';
+
+.catalog__item {
+    width: $m-content-width;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media (min-width: $tablet) {
+    .catalog__item {
+        width: $t-content-width;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: $desktop) {
+    .catalog__item {
+        width: 316px;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 60px;
+    }
+}

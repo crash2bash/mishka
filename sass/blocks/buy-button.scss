@@ -1,0 +1,13 @@
+@import '../variables.scss';
+
+.buy-button {
+    margin-bottom: 36px;
+}
+
+@media (min-width: $desktop) {
+    .buy-button {
+        width: 292px;
+        padding: 14px 0;
+        margin-bottom: 73px;
+    }
+}

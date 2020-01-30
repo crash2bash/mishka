@@ -1,0 +1,6 @@
+@media (min-width: 1200px) {
+  .contacts__button {
+    width: 230px;
+    margin-left: 180px;
+    margin-top: -50px;
+    padding: 12px 0; } }

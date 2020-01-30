@@ -1,0 +1,66 @@
+.choose {
+  width: 320px;
+  margin: 0 auto; }
+
+.choose__header {
+  background-image: url(../img/mishka-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.choose__h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 76px;
+  padding-bottom: 125px;
+  text-align: center;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #010000; }
+
+@media (min-width: 771px) {
+  .choose {
+    width: 771px;
+    position: relative;
+    margin-bottom: 55px; }
+  .choose__header {
+    background-image: url(../img/hero-desktop.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 771px auto; }
+  .choose__h2 {
+    width: 494px;
+    margin: 0 auto;
+    padding-top: 161px;
+    padding-bottom: 434px;
+    font-size: 43px;
+    line-height: 50px; }
+  .choose__h2 br {
+    display: none; }
+  .choose::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/zigzag-fill-desktop.png);
+    background-repeat: no-repeat;
+    width: 771px;
+    height: 23px;
+    top: 97%;
+    left: 0.3%; } }
+
+@media (min-width: 1200px) {
+  .choose {
+    width: 1250px; }
+  .choose__header {
+    background-image: url(../img/hero-desktop2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1250px auto; }
+  .choose__h2 {
+    width: 650px;
+    font-size: 53px;
+    line-height: 57px; }
+  .choose::after {
+    width: 100%;
+    background-image: url(../img/zigzag-fill-desktop2.png);
+    background-repeat: repeat; } }
